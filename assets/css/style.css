@@ -1,17 +1,20 @@
 h2{
     color:#4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
 }
 
-#bioText{
+#contentText{
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px;
 }
 
 #bioImage{
     float: left;
-    padding-right: 10px;
-    height:150px
+    margin-right: 10px;
+    height:150px;
+    margin-left: 10px;
 }
 
 header {
@@ -31,7 +34,8 @@ footer{
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     text-align: center;
-    height: 50px
+    height: 50px;
+    widith: 100%
 }
 
 body{
@@ -41,6 +45,11 @@ body{
 
 .content{
     min-height: calc(100vh - 70px);
+}
+
+#body{
+    border: 2px solid #dddddd;
+    margin: 20px 0 20px 0;
 }
 
 #myLogo{
@@ -82,3 +91,34 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
+
+#nameField{
+    width:95%;
+    margin: 0 10px 0 10px;
+}
+
+#emailField{
+    width: 95%;
+    margin: 0 10px 0 10px;
+}
+
+#messageField{
+    width: 95%;
+    margin: 0 10px 0 10px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+.button:hover {
+    background-color: darkcyan;
